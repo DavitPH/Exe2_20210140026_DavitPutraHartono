@@ -1,0 +1,97 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: #e6f7e6;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+legend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.checkbox-group input[type="checkbox"],
+.checkbox-group input[type="radio"] {
+    margin: 0;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
+.checkbox-group label {
+    margin: 0;
+}
+
+input[type="submit"] {
+    background-color: #289e28;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.back,
+a {
+    margin-top: 10px;
+    background-color: #289e28;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-group input[type="radio"] {
+    margin: 0;
+    margin-right: 5px;
+    order: -1;
+    flex-shrink: 0;
+}
+
+.radio-group label {
+    margin: 0;
+}

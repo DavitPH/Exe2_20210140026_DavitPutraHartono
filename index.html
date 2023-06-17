@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rumah Sakit Mega</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .media-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .media-container video,
+        .media-container audio,
+        .media-container img {
+            max-width: 400px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .hospital-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .hospital-info img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .hospital-info h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="hospital-info">
+            <img src="logo.png" alt="Rumah Sakit Mega">
+            <h2>Mega Hospital</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Welcome to Rumah Sakit Mega</h1>
+        </section>
+
+        <section class="media">
+            <div class="media-container">
+                <div class="media-info">
+                    <p style="color: black;">I Have No Enemies</p>
+                    <audio controls>
+                        <source src="I Have No Enemies.mpeg" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-info">
+                    <p style="color: black;">Megawati Speeach</p>
+                    <video controls>
+                        <source src="Mega.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <img src="logo.png" alt="Gambar">
+            </div>
+        </section>
+
+        <section class="intro">
+            <p>Silakan Pengambilan Nomer Antrian</p>
+            <a href="form.html" class="btn">Form Pendaftaran Online</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Rumah Sakit Mega. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

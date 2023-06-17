@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulir Pengambilan Nomer Antrian RS. Mega</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulir Pengambilan Nomer Antrian RS. Mega</legend>
+
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama">
+            </div>
+
+            <div class="form-group">
+                <label for="tanggal">Tanggal Berobat:</label>
+                <input type="date" id="tanggal" name="tanggal">
+            </div>
+
+            <div class="form-group">
+                <label for="poli">Poli:</label><br>
+                <select id="poli" name="poli">
+                    <option value="" disabled selected>Pilih Poli</option>
+                    <option value="THT">THT</option>
+                    <option value="Anak">Anak</option>
+                    <option value="Mata">Mata</option>
+                    <option value="Penyakit Dalam">Penyakit Dalam</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Jenis Kelamin:</label><br>
+                <div class="radio-group">
+                    <input type="radio" id="laki-laki" name="jk" value="Laki-laki">
+                    <label for="laki-laki">Laki-laki</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="perempuan" name="jk" value="Perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="keluhan">Keluhan Anda:</label><br>
+                <textarea id="keluhan" rows="10" cols="60" placeholder="Tulis keluhan Anda di sini"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="nama">Nomer yang Bisa Dihubungi:</label>
+                <input type="text" id="no" name="no">
+            </div>
+
+            <div class="form-group">
+                <button type="button" onclick="kirimData()">Kirim</button>
+            </div>
+
+        </fieldset>
+    </form>
+
+    <script src="form.js"></script>
+</body>
+
+</html>
